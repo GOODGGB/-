@@ -1,0 +1,152 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-image: url("https://id5.res.netease.com/pc/gw/20220408094220/img/bg-gfqd_555219d.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.head{
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    text-align: center;    
+}
+.head h1{
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    color: #b67e53;
+    text-align: center;
+}
+.head p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #b67e53;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    
+}
+.navlist{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+.navlist li{
+    float: left;
+    margin: 0;
+    width: 90px;
+    text-align: center;     
+     
+}
+.navlist li a{
+    font-size: 20px;
+    color: #bc8d68;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.main{
+    width: 1535px;
+    height: 600px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.main li{
+    width: 150px;
+    float: left;
+    border-left: 1px solid #fff;
+    
+    position: relative;
+    transition: all 0.7s;
+}
+.flag{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+.main:hover li{
+    width: 100px;
+}
+.main .li1:hover{
+    width: 620px;
+    .flag{
+        display: none;
+    }
+}
+.main .li2:hover{
+    width: 590px;
+    .flag{
+        display: none;
+    }
+}
+.main .li3:hover{
+    width: 500px;
+    .flag{
+        display: none;
+    }
+}
+.main .li4:hover{
+    width: 640px;
+    .flag{
+        display: none;
+    }
+}
+.main .li5:hover{
+    width: 585px;
+    .flag{
+        display: none;
+    }
+}
+.main .li6:hover{
+    width: 770px;
+    .flag{
+        display: none;
+    }
+}
+.main .li7:hover{
+    width: 560px;
+    .flag{
+        display: none;
+    }
+}
+.main .li8:hover{
+    width: 650px;
+    .flag{
+        display: none;
+    }
+}
+.main .li9:hover{
+    width: 620px;
+    .flag{
+        display: none;
+    }
+}
+.main .li10:hover{
+    width: 620px;
+    .flag{
+        display: none;
+    }
+}
+
+ul  img{
+    
+    height: 600px;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;
+}
+body{
+    background-image: url("https://id5.res.netease.com/pc/gw/20220408094220/img/bg-gfqd_555219d.jpg");
+    
+}
+.main{
+    width: 1550px;
+    height: 600px;
+    margin: 150px auto;
+    overflow: hidden;
+}
+li{
+    width: 150px;
+    float: left;
+    border-left: 1px solid #fff;
+    position: relative;
+    transition: all 1s;
+}
+.flag{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+.main:hover li{
+    width: 100px;
+}
+.main li:hover{
+    width: 500px;
+}
+
+ul li img{
+    
+    height: 600px;
+}
